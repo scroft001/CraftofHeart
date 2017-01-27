@@ -3,34 +3,39 @@
     margin: 0px;
 }
 
+.headerImage{
+    background-image: url(../images/woodtexture.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
 .navbar{
     width: 50%;
-    /*border-top: 2px solid black;*/
-    /*border-bottom: 2px solid black;*/
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
     margin: auto;
 }
 
 ul{
     margin: auto;
-    width: 70%;
+    width: 90%;
 }
 
 li{
     display: inline-block;
     padding: 20px;
-    font-size: 25px;
-    margin-top: 10px;
-    border-top: none;
-    border-bottom: none;
-    transition: border-top 0.3s ease, border-bottom 0.3s ease;
+    font-size: 40px;
+    
 }
 
 li a{
     text-decoration: none;
-    color: black;
+    color: white;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
 }
 
-li:hover{
-    border-top: 2px solid pink;
-    border-bottom: 2px solid pink;
+li a:hover{
+    color: pink;
+    text-shadow: 5px 5px 10px black;
 }
+
